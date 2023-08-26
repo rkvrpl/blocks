@@ -35,14 +35,9 @@
     height: 70px;
     
 }
-.item1{
-    font-size: large;
-    font-weight: bold;
-    padding: 70px;
-    min-width: 460px;
-    background-color: rgb(219, 211, 168);
-}
-.item2{
+.item1, .item2{
+    display: flex;
+    justify-content:center;
     font-size: large;
     font-weight: bold;
     padding: 70px;
